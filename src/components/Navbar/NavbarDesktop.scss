@@ -1,0 +1,34 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.navbar {
+	background-color: $yellow;
+}
+
+.title-header {
+	height: 80px;
+	justify-content: center;
+	align-items: center;
+	font-family: $primary-font;
+	font-size: 2rem;
+	background-color: $header-title-background;
+}
+
+.nav-link {
+	transition: color $transition;
+	&:hover {
+		color: $hover-color;
+	}
+}
+
+@include breakpoint(desktop){
+	.title-header{
+		font-size: 2.5rem;
+		font-weight: 700;
+	}
+}
+@include breakpoint(larger-desktop){
+	.title-header{
+		font-size: 3rem;
+	}
+}

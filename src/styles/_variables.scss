@@ -1,0 +1,20 @@
+//FONT
+$primary-font: "Roboto", sans-serif;
+$secondary-font: "Merriweather", serif;
+
+//COLOR VARIABLES (ONLY FOR CHANGE, NOT FOR USE IN MODULES)
+$grey: #434343;
+$light-gray: #f8f9fa;
+$yellow: #ffcd39;
+$light-yellow: #fdda6a;
+
+//VARIABLES FOR MODULES
+$header-background: $yellow;
+$header-title-background: $light-yellow;
+$footer-background: $light-yellow;
+$list-element-text-color: $grey;
+$navbar-menu: $light-gray;
+$hover-color: $light-gray;
+
+//TRANSITION
+$transition: 0.6s;

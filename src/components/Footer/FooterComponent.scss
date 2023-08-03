@@ -1,0 +1,60 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.FooterComponent {
+	background-color: $footer-background;
+}
+
+.FooterTitle {
+	font-family: $primary-font;
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.FooterSocialMedia {
+	justify-content: center;
+	align-items: center;
+}
+
+ul {
+	margin: 0 0 1.5rem 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	li {
+		a {
+			font-size: 2rem;
+			line-height: 30px;
+			color: $list-element-text-color;
+			transition: color $transition;
+
+			&:hover {
+				color: $hover-color;
+			}
+		}
+	}
+}
+.additional-text {
+	font-size: 1rem;
+}
+
+@include breakpoint(tablet) {
+	.FooterTitle {
+		font-size: 2rem;
+	}
+}
+
+@include breakpoint(desktop){
+	.FooterTitle{
+		font-size: 2.5rem;
+	}
+	.additional-text{
+		font-size: 1.5rem;
+	}
+}
+
+@include breakpoint(larger-desktop){
+	.FooterTitle{
+		font-size: 3rem;
+	}
+}

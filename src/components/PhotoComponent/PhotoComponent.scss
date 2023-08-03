@@ -1,0 +1,102 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.bg-image {
+	position: relative;
+	min-height: 200px;
+	max-width: 100%;
+	background-image: url(../../assets/photo-small.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.7;
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+}
+
+.text-card-wrapper {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+
+.text-card {
+	max-width: 200px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.card-text {
+	font-size: 1rem;
+	font-family: $secondary-font;
+}
+
+.card-title {
+	font-size: 1rem;
+	font-family: $secondary-font;
+	text-align-last: right;
+	font-style: italic;
+	font-weight: bold;
+}
+
+@include breakpoint(phone) {
+	.bg-image {
+		min-height: 300px;
+	}
+}
+
+@include breakpoint(tablet) {
+	.bg-image {
+		margin-top: 50px;
+		min-height: 400px;
+	}
+}
+@include breakpoint(desktop) {
+	.bg-image {
+		margin-top: 100px;
+		min-height: 450px;
+		background-image: url(../../assets/photo-big.jpg);
+
+		&::before {
+			background-color: rgba(0, 0, 0, 0.8);
+		}
+	}
+	.card-image {
+    top: 30px;
+    right: 50px;
+		max-width: 500px;
+	}
+	.text-card-wrapper {
+		bottom: 40px;
+	}
+	.text-card {
+		max-width: 500px;
+	}
+	.card-title {
+		font-size: 2rem;
+	}
+	.card-text {
+		font-size: 2rem;
+	}
+}
+
+@include breakpoint(large-desktop) {
+	.bg-image {
+		min-height: 500px;
+	}
+  .text-card-wrapper {
+		bottom: 60px;
+	}
+	.text-card {
+		max-width: 600px;
+	}
+}

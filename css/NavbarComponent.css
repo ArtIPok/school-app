@@ -1,0 +1,14 @@
+.navbar {
+  background-color: #f3f364;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-size: .8rem;
+}
+/*# sourceMappingURL=NavbarComponent.css.map */
