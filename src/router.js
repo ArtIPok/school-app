@@ -4,6 +4,8 @@ import { ErrorPage } from "./pages/ErrorPage/ErrorPage"
 import { HomePage } from "./pages/HomePage/HomePage"
 import { FooterComponent } from "./components/Footer/FooterComponent"
 import { LabPage } from "./pages/LabPage/LabPage"
+import { October } from "./components/Lab/October"
+import { September } from "./components/Lab/September"
 
 export const router = createBrowserRouter([
 	{
@@ -25,6 +27,18 @@ export const router = createBrowserRouter([
 				path: "/laboratorium",
 				element: <LabPage />,
 				errorElement: <ErrorPage />,
+				children: [
+					{
+						path: "september",
+						element: <September />,
+						errorElement: <ErrorPage />,
+					},
+					{
+						path: "october",
+						element: <October />,
+						errorElement: <ErrorPage />,
+					},
+				],
 			},
 		],
 	},

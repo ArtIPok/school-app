@@ -49,8 +49,8 @@ export const AboutComponent = () => {
 										wykwalifikowanej kadry pedagogiczno-terapeutycznej, która
 										stale rozwija swoje kompetencje. Do każdego dziecka
 										podchodzimy indywidualnie, patrząc na jego szczególne
-										potrzeby rozwojowe, terapeutyczne i dydaktyczne.
-										<p>Proponujemy szeroki wachlarz zajęć specjalistycznych:</p>
+										potrzeby rozwojowe, terapeutyczne i dydaktyczne.<br />
+										Proponujemy szeroki wachlarz zajęć specjalistycznych:
 									</p>
 									<ul className='list-about'>
 										<li>konsultacje psychologiczne,</li>
