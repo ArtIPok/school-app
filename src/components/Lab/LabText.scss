@@ -1,0 +1,30 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.LabTitle{
+  padding-bottom: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.LabTitle2{
+  padding: 1em 1em;
+  text-align: center;
+}
+
+.LabText{
+  margin: 5em 2em 0 2em;
+  background-color: $background-lab-component;
+}
+
+.LabText2{
+  padding: 1em 6em;
+  text-align: center;
+}
+
+@include breakpoint(desktop){
+.LabTitle{
+  padding-top: 3em;
+  font-size: 3rem;
+}
+}

@@ -11,7 +11,7 @@ export const PhotoComponent = () => {
 			<div className='text-center text-card-wrapper'>
 				<Card className='text-card'>
 					<Card.Body>
-						<Card.Text className='card-text'>
+						<Card.Text className='card-text photo-text'>
 							"Dziecko chce być dobre. Jeśli nie umie - naucz,jeśli nie wie -
 							wytłumacz, jeśli nie może - pomóż."
 						</Card.Text>

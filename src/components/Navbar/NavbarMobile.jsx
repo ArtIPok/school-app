@@ -42,18 +42,23 @@ export const NavbarMobile = () => {
 								</a>
 							</li>
 							<li className='nav-item'>
-								<a className='nav-link' href='/'>
+								<a className='nav-link' href='/#aboutUs'>
 									O nas
 								</a>
 							</li>
 							<li className='nav-item'>
-								<a className='nav-link' href='/'>
+								<a className='nav-link' href='/#news'>
 									Aktualności
 								</a>
 							</li>
               <li className='nav-item'>
-								<a className='nav-link' href='/'>
+								<a className='nav-link' href='/#contact'>
 									Kontakt
+								</a>
+							</li>
+							<li className='nav-item'>
+								<a className='nav-link' href='/laboratorium'>
+									Laboratoria przyszłości
 								</a>
 							</li>
 						</ul>

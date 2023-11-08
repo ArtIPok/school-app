@@ -15,7 +15,7 @@ export const FooterComponent = () => {
 			</p>
 			<CopyrightNotice />
 			<div className='FooterSocialMedia d-flex'>
-					<ul className="d-flex flex-row">
+					<ul className="d-flex flex-row list-social">
 						<li className="p-4">
 							<a href='https://twitter.com' target='_blank' rel='noreferrer'>
 								<FontAwesomeIcon icon={faTwitter}>Twitter</FontAwesomeIcon>

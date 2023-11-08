@@ -12,4 +12,9 @@ html {
 
 body {
 	font-size: 1.6rem;
+	background-color: $body-background;
+}
+
+.increase-font {
+  font-size: $increase-font !important;
 }

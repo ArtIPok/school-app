@@ -7,14 +7,21 @@ $grey: #434343;
 $light-gray: #f8f9fa;
 $yellow: #ffcd39;
 $light-yellow: #fdda6a;
+$pen: rgb(247, 244, 204);
 
 //VARIABLES FOR MODULES
 $header-background: $yellow;
 $header-title-background: $light-yellow;
+$body-background: $light-gray;
+$navbar-menu: $light-gray;
+$quote-background: $pen;
 $footer-background: $light-yellow;
 $list-element-text-color: $grey;
-$navbar-menu: $light-gray;
 $hover-color: $light-gray;
+$background-lab-component: $light-gray;
 
 //TRANSITION
 $transition: 0.6s;
+
+//CHANGE FONT-SIZE
+$increase-font: 130%;

@@ -3,6 +3,7 @@
 
 .navbar {
 	background-color: $yellow;
+	height: 56px;
 }
 
 .title-header {
@@ -21,14 +22,46 @@
 	}
 }
 
-@include breakpoint(desktop){
-	.title-header{
+.zoom-icon {
+	padding-right: 3em;
+}
+
+@include breakpoint(desktop) {
+	.title-header {
 		font-size: 2.5rem;
 		font-weight: 700;
 	}
+	.navbar-lab-logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+
+	.logo-lab {
+		height: 40px;
+		width: auto;
+	}
 }
-@include breakpoint(larger-desktop){
-	.title-header{
+
+@include breakpoint(large-desktop) {
+	.navbar-lab-logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 20%;
+		height: 100%;
+	}
+	.logo-lab {
+		height: 50px;
+	}
+}
+
+@include breakpoint(larger-desktop) {
+	.title-header {
 		font-size: 3rem;
+	}
+	.logo-lab {
+		height: 60px;
 	}
 }

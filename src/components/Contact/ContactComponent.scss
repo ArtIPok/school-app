@@ -1,0 +1,23 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.title-contact{
+  padding: 1em 0;
+  font-family: $primary-font;
+  font-size: 1.4rem;
+}
+
+.data-contact{
+  font-family: $secondary-font;
+  font-size: 1.2rem;
+}
+
+@include breakpoint(desktop){
+  .title-contact{
+    font-size: 2rem;
+  }
+
+  .data-contact{
+    font-size: 1.5rem;
+  }
+}
