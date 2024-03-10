@@ -2,6 +2,9 @@ import "./LabText.scss"
 import { November } from "./November"
 import { October } from "./October"
 import { September } from "./September"
+import { December } from "./December"
+import { January } from "./January"
+import { February } from "./February"
 
 export const LabText = () => {
 	return (
@@ -58,6 +61,9 @@ export const LabText = () => {
 			<September />
 			<October />
 			<November />
+			<December />
+			<January />
+			<February />
 		</>
 	)
 }

@@ -1,0 +1,15 @@
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  width: 33.33%; // Trzy kolumny
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+}
